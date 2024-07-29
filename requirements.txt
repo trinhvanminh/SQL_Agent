@@ -1,0 +1,6 @@
+langchain==0.2.11
+langchain_community==0.2.10
+langchain_fireworks==0.1.5
+python-dotenv==1.0.1
+streamlit==1.37.0
+pyodbc==5.1.0
