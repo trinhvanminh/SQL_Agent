@@ -8,6 +8,10 @@
 
 `python -m venv .venv`
 
+### Active venv (window)
+
+`.\.venv\Scripts\activate`
+
 ### Install requirements
 
 `pip install -r requirements.txt`
