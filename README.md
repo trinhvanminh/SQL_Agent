@@ -2,7 +2,6 @@
 
 ![image](https://github.com/user-attachments/assets/dba0ea54-c644-4234-a5e4-26fc18fd50d7)
 
-
 ## How to run the application
 
 ### Creation of virtual environments is done by executing the command venv:
@@ -23,6 +22,8 @@ https://fireworks.ai/account/api-keys
 ### Run the app
 
 `streamlit run app.py`
+
+## [Demo](https://minh-sql-agent.streamlit.app/)
 
 ## TODO
 
