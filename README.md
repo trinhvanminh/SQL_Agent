@@ -31,7 +31,8 @@ This makes it more accurate and includes the query results as well.
 > FIREWORKS_API_KEY='xxx'
 
 You can get the `FIREWORKS_API_KEY` [here](https://fireworks.ai/account/api-keys). 
-There are a lot of LLM services to choose such as _AzureOpenAI, OpenAI, Cohere, Ollama, Groq, Fireworks, GoogleGenerativeAI,... _
+
+There are a lot of LLM services to choose such as *AzureOpenAI, OpenAI, Cohere, Ollama, Groq, Fireworks, GoogleGenerativeAI,...*
 Feel free to make pull requests or make a request to me if you interested
 ### Run the app
 
