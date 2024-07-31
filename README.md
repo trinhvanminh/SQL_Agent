@@ -3,6 +3,23 @@ It’s similar to AI **text2SQL** bots, but with added information:
 - Table names in your SQL database
 - Schema details for each table
 - Sample rows from each table
+- Support various SQL DB 
+  ```py
+  # .\.venv\Lib\site-packages\langchain\chains\sql_database\prompt.py
+  SQL_PROMPTS = {
+      "crate": CRATEDB_PROMPT,
+      "duckdb": DUCKDB_PROMPT,
+      "googlesql": GOOGLESQL_PROMPT,
+      "mssql": MSSQL_PROMPT,
+      "mysql": MYSQL_PROMPT,
+      "mariadb": MARIADB_PROMPT,
+      "oracle": ORACLE_PROMPT,
+      "postgresql": POSTGRES_PROMPT,
+      "sqlite": SQLITE_PROMPT,
+      "clickhouse": CLICKHOUSE_PROMPT,
+      "prestodb": PRESTODB_PROMPT,
+  }
+  ```
 This makes it more accurate and includes the query results as well.
 
 **FYI**: In the example below, you can see the previous steps. Clicking on them will show you the process it followed to generate the SQL query, including the final query that provides the answer.
