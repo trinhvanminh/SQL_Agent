@@ -42,10 +42,10 @@ This makes it more accurate and includes the query results as well.
 
 `pip install -r requirements.txt`
 
-### Create .env files with these keys
+### Create `.env` files with these keys
 
 > DB_CONNECTION_STRING="mssql+pyodbc://<username>:<password>@<server-name>/<db-name>?trusted_connection=yes&driver=ODBC+Driver+17+for+SQL+Server"
-> FIREWORKS_API_KEY='xxx'
+ FIREWORKS_API_KEY='xxx'
 
 You can get the `FIREWORKS_API_KEY` [here](https://fireworks.ai/account/api-keys). 
 
