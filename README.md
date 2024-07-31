@@ -3,7 +3,7 @@ It’s similar to AI **text2SQL** bots, but with added information:
 - Table names in your SQL database
 - Schema details for each table
 - Sample rows from each table
-- Support various SQL DB 
+- Support various SQL DBs (have been tested on mssql)
   ```py
   # .\.venv\Lib\site-packages\langchain\chains\sql_database\prompt.py
   SQL_PROMPTS = {
