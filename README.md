@@ -27,11 +27,10 @@ FYI: In the example below, you can see the previous steps. Clicking on them will
 
 ### Create .env files with these keys
 
-https://fireworks.ai/account/api-keys
-
 > DB_CONNECTION_STRING="mssql+pyodbc://<username>:<password>@<server-name>/<db-name>?trusted_connection=yes&driver=ODBC+Driver+17+for+SQL+Server"
 > FIREWORKS_API_KEY='xxx'
 
+You can get the `FIREWORKS_API_KEY` [here](https://fireworks.ai/account/api-keys) (free 50$ credit)
 ### Run the app
 
 `streamlit run app.py`
