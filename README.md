@@ -5,7 +5,7 @@ It’s similar to AI **text2SQL** bots, but with added information:
 - Sample rows from each table
 This makes it more accurate and includes the query results as well.
 
-FYI: In the example below, you can see the previous steps. Clicking on them will show you the process it followed to generate the SQL query, including the final query that provides the answer.
+**FYI**: In the example below, you can see the previous steps. Clicking on them will show you the process it followed to generate the SQL query, including the final query that provides the answer.
 
 ## An example
 
@@ -30,7 +30,9 @@ FYI: In the example below, you can see the previous steps. Clicking on them will
 > DB_CONNECTION_STRING="mssql+pyodbc://<username>:<password>@<server-name>/<db-name>?trusted_connection=yes&driver=ODBC+Driver+17+for+SQL+Server"
 > FIREWORKS_API_KEY='xxx'
 
-You can get the `FIREWORKS_API_KEY` [here](https://fireworks.ai/account/api-keys) (free 50$ credit)
+You can get the `FIREWORKS_API_KEY` [here](https://fireworks.ai/account/api-keys). 
+There are a lot of LLM services to choose such as _AzureOpenAI, OpenAI, Cohere, Ollama, Groq, Fireworks, GoogleGenerativeAI,... _
+Feel free to make pull requests or make a request to me if you interested
 ### Run the app
 
 `streamlit run app.py`
