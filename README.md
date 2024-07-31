@@ -1,3 +1,12 @@
+## What is this?
+It’s similar to AI **text2SQL** bots, but with added information:
+- Table names in your SQL database
+- Schema details for each table
+- Sample rows from each table
+This makes it more accurate and includes the query results as well.
+
+FYI: In the example below, you can see the previous steps. Clicking on them will show you the process it followed to generate the SQL query, including the final query that provides the answer.
+
 ## An example
 
 ![image](https://github.com/user-attachments/assets/dba0ea54-c644-4234-a5e4-26fc18fd50d7)
